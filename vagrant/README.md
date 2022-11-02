@@ -17,5 +17,3 @@ In the `Vagrantfile` the scripts folder is mount at `/scripts` inside the virtua
 ## Resources
 - CLI commands `vagrant -h` for available command line options
 - [Vagrant Documentation](https://developer.hashicorp.com/vagrant/docs) for other configurations
-
-### Notes

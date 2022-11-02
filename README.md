@@ -1,8 +1,12 @@
-# Service Mesh Developer
+# Service Mesh Dev Sandbox
 
 There are multiple scripts in the `/scripts` path which will assist in the setup of the service mesh.
 
-## Minimal Setup
+## Vagrant Setup (Recommended)
+
+To setup using vagrant, follow the instructions listed in the [Vagrant README](https://github.com/gmatthew/service-mesh-dev/blob/main/vagrant/README.md)
+
+## Manual Setup
 1. `./scripts/install-docker.sh` to [install Docker](https://docs.docker.com/engine/install/ubuntu/)
 2. `./scripts/install-minikube.sh` to [install Minikube](https://minikube.sigs.k8s.io/docs/start/) and start with 1 node
 3. `./scripts/install-istio.sh` to [install Istio](https://istio.io/latest/docs/setup/getting-started/)
