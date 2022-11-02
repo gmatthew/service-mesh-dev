@@ -1,6 +1,6 @@
 #!/bin/bash
+echo "Installing Docker..."
 
-# install docker
 sudo apt-get remove docker docker-engine docker.io containerd runc -y
 sudo apt-get update -y
 sudo apt-get install     ca-certificates     curl     gnupg     lsb-release -y
@@ -11,5 +11,5 @@ sudo apt-get update -y
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 
 # create docker group
-sudo usermod -aG docker $USER && newgrp docker
+sudo usermod -aG docker vagrant && newgrp docker
 

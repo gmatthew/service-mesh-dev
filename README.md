@@ -9,7 +9,7 @@ There are multiple scripts in the `/scripts` path which will assist in the setup
 
 ## Tools
 1. `./scripts/install-wrk2.sh` to install [wrk2](https://github.com/giltene/wrk2) for load generation
-2. Vagrant file is located in `/vagrant`
+2. Local development environment setup with Vagrant is located in `/vagrant`
 
 ## Questions
 ### [How to determine the Ingress IP and ports for Istio?](https://istio.io/latest/docs/setup/getting-started/#determining-the-ingress-ip-and-ports)

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-## Install Istio
+echo "Installing Istio..."
 
 curl -L https://istio.io/downloadIstio | sh -
 cd istio-1.15.3/	
